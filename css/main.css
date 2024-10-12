@@ -1,4 +1,4 @@
-/* styles.css */
+/* styles.css
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,11 +7,11 @@ body {
 
 .navbar {
     background-color: #333;
-    overflow: hidden;
     height: 100px;
 }
 
 .navbar ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0px;
@@ -26,15 +26,17 @@ body {
 }
 
 .navbar a {
+    display: flex;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-decoration: none;
-    display: block;
-    border: none;
     padding: 20px;
+    border: solid 1px none;
+
 }
 
 .navbar a:hover {
+    display: flex;
+    font-size: 30px;
     border: solid 1px white;
     padding: 20px;
     color: rgb(255, 0, 0);
@@ -43,4 +45,4 @@ body {
 
 .img_product{
     padding: 200px 150px;
-}
+} */
